@@ -21,5 +21,5 @@ Feature: Google Search KeyWord
     Examples:
       |Browser      |          Url           |   KeyWord    |         Domain               |Pages|
       | Chrome      | https://www.google.com |  automation  |   www.tempoautomation.com    |  4  |
-      | FireFox     | https://www.google.com |  automation  |   testautomationday.com      |  4  |
+      | FireFox     | https://www.google.com |  automation  |   zapier.com                 |  4  |
       | Opera       | https://www.google.com |  automation  |   testautomationday.com      |  4  |
