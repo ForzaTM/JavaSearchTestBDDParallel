@@ -24,7 +24,7 @@ public class Hooks {
     @After
     public void End(Scenario scenario) {
         if(scenario.isFailed()) {
-            Log.error("Scenario: " + scenario.getName() + "Failed. Capturing screenshot!");
+            Log.error("Scenario: " + scenario.getName() + " Failed. Capturing screenshot!");
             scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
         }
         if (driver != null) {

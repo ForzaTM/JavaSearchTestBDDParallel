@@ -61,7 +61,14 @@ public class SearchResults extends BasePage {
     }
 
     public void ClickFirstSearchElementOnPage() throws Exception {
-        actions.Click(firstOfGoogleSearchResults);
+        try {
+            actions.Click(firstOfGoogleSearchResults);
+        }
+        catch(Exception ex)
+        {
+            Log.error("Failed to click first searched element on search results page. Exception: " + ex);
+            throw new Exception("Failed to click first searched element on search results page. Exception: " + ex);
+        }
     }
 
     public Boolean FindDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
@@ -75,6 +82,7 @@ public class SearchResults extends BasePage {
             }
             NextPage(i + 1);
         }
+        Log.error("Failed to find domain: " + domain + " on " + amountOfPages + " search results pages");
         return false;
     }
 }

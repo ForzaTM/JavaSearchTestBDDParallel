@@ -1,4 +1,4 @@
-Feature: Google Search KeyWord
+Feature: Google Search
 
   Scenario Outline: Verify title of the first link
     Given '<Browser>' browser was opened with '<Url>' url
