@@ -17,7 +17,7 @@ Feature: Google Search KeyWord
     Given '<Browser>' browser was opened with '<Url>' url
     When '<KeyWord>' keyword was typed in google search field on 'Google Search' page
     And 'Search Results' page is shown
-    Then Verify that '<Domain>' domain is present on one of the '<Pages>' pages
+    Then Verify that '<Domain>' domain is present on one of the <Pages> pages
     Examples:
       |Browser      |          Url           |   KeyWord    |         Domain               |Pages|
       | Chrome      | https://www.google.com |  automation  |   www.br-automation.com      |  4  |
