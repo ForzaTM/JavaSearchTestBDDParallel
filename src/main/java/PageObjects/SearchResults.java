@@ -2,6 +2,7 @@ package PageObjects;
 
 import Core.CommonActions;
 import Core.DriverManager;
+import Utilities.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
@@ -36,26 +37,41 @@ public class SearchResults extends BasePage {
         navigationSection = FindElementWithDelay(navigationSect, true);
     }
 
-    public void NextPage(Integer pagenum) {
-        switchPage = FindElementInsideElementWithDelay(navigationSect, By.xpath(".//a[contains(@aria-label, 'Page " + pagenum + "')]"), false);
-        switchPage.click();
+    public void NextPage(Integer pagenum) throws Exception {
+        try {
+            switchPage = FindElementInsideElementWithDelay(navigationSect, By.xpath(".//a[contains(@aria-label, 'Page " + pagenum + "')]"), false);
+            switchPage.click();
+        }
+        catch (Exception ex)
+        {
+            Log.error("Failed to click nex page with number: " + pagenum + ". Exception: " + ex);
+            throw new Exception("Failed to click nex page with number: " + pagenum + ". Exception: " + ex);
+        }
     }
 
-    public List<WebElement> linksInSearchList() {
-        return FindElementsWithDelay(linksInSF, false);
+    public List<WebElement> linksInSearchList() throws Exception {
+        try {
+            return FindElementsWithDelay(linksInSF, false);
+        }
+        catch (Exception ex)
+        {
+            Log.error("Failed to get links from search results. Exception: " + ex);
+            throw new Exception("Failed to get links from search results. Exception: " + ex);
+        }
     }
 
     public void ClickFirstSearchElementOnPage() throws Exception {
         actions.Click(firstOfGoogleSearchResults);
     }
 
-    public Boolean FindDomainOnOneOfThePages(String domain, int amountOfPages)
-    {
+    public Boolean FindDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
         for (int i = 1; i <= amountOfPages; i++)
         {
             for (WebElement element : linksInSearchList()) {
-                if (element.getText().toLowerCase().contains(domain.toLowerCase()))
+                if (element.getText().toLowerCase().contains(domain.toLowerCase())) {
+                    Log.info("Domain: " + domain + " was found on " + i + " page");
                     return true;
+                }
             }
             NextPage(i + 1);
         }

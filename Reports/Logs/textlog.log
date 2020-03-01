@@ -1,0 +1,106 @@
+[INFO ] 2020-03-01 16:23:52.504 [main] Log - Test is Starting...
+[INFO ] 2020-03-01 16:23:55.229 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-01 16:23:55.756 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:23:56.902 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:23:56.930 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:23:56.961 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:23:57.004 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:23:57.845 [main] Log - Successful Click on element
+[INFO ] 2020-03-01 16:23:57.904 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:23:58.535 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:23:58.539 [main] Log - Test is Starting...
+[INFO ] 2020-03-01 16:24:02.574 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-01 16:24:03.386 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:24:03.452 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:24:03.475 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:24:04.541 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:24:04.571 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:24:07.042 [main] Log - Successful Click on element
+[INFO ] 2020-03-01 16:24:07.045 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:24:08.059 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:24:08.061 [main] Log - Test is Starting...
+[INFO ] 2020-03-01 16:24:09.777 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-01 16:24:10.233 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:24:11.417 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:24:11.435 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:24:11.460 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:24:11.496 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:24:11.563 [main] Log - Successful Click on element
+[INFO ] 2020-03-01 16:24:11.569 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:24:12.174 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-1] Log - Test is Starting...
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-0] Log - Test is Starting...
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-4] Log - Test is Starting...
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-5] Log - Test is Starting...
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-3] Log - Test is Starting...
+[INFO ] 2020-03-01 16:25:58.647 [TestNG-PoolService-2] Log - Test is Starting...
+[INFO ] 2020-03-01 16:26:01.386 [TestNG-PoolService-0] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-01 16:26:01.446 [TestNG-PoolService-3] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-01 16:26:02.020 [TestNG-PoolService-2] Log - Opera driver successfully initialized
+[INFO ] 2020-03-01 16:26:02.056 [TestNG-PoolService-5] Log - Opera driver successfully initialized
+[INFO ] 2020-03-01 16:26:03.045 [TestNG-PoolService-3] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:03.074 [TestNG-PoolService-0] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:03.257 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:03.336 [TestNG-PoolService-2] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:05.395 [TestNG-PoolService-3] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:05.522 [TestNG-PoolService-3] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:05.580 [TestNG-PoolService-2] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:05.626 [TestNG-PoolService-3] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:05.695 [TestNG-PoolService-2] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:05.776 [TestNG-PoolService-5] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:05.788 [TestNG-PoolService-3] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:05.807 [TestNG-PoolService-2] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:05.815 [TestNG-PoolService-3] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:05.840 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:05.886 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:05.933 [TestNG-PoolService-2] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:05.983 [TestNG-PoolService-0] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:06.121 [TestNG-PoolService-5] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:06.124 [TestNG-PoolService-2] Log - Successful Click on element
+[INFO ] 2020-03-01 16:26:06.133 [TestNG-PoolService-2] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:26:06.137 [TestNG-PoolService-0] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:06.153 [TestNG-PoolService-5] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:06.241 [TestNG-PoolService-0] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:06.364 [TestNG-PoolService-0] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:06.513 [TestNG-PoolService-3] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:06.800 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:07.900 [TestNG-PoolService-3] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:07.962 [TestNG-PoolService-5] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:08.076 [TestNG-PoolService-0] Log - Successful Click on element
+[INFO ] 2020-03-01 16:26:08.324 [TestNG-PoolService-0] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:26:08.500 [TestNG-PoolService-4] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-01 16:26:08.562 [TestNG-PoolService-1] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-01 16:26:08.574 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 3')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:08.595 [TestNG-PoolService-3] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 3')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:08.706 [TestNG-PoolService-2] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:26:09.517 [TestNG-PoolService-4] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:09.549 [TestNG-PoolService-1] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:09.629 [TestNG-PoolService-5] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:09.651 [TestNG-PoolService-4] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:09.682 [TestNG-PoolService-4] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:09.715 [TestNG-PoolService-1] Log - Text: automation successfully entered
+[INFO ] 2020-03-01 16:26:09.746 [TestNG-PoolService-1] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-01 16:26:09.755 [TestNG-PoolService-0] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:26:09.855 [TestNG-PoolService-3] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:09.969 [TestNG-PoolService-3] Log - Domain: www.br-automation.com was found on 3 page
+[INFO ] 2020-03-01 16:26:09.970 [TestNG-PoolService-3] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:26:10.072 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 4')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:10.782 [TestNG-PoolService-4] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:10.828 [TestNG-PoolService-1] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-01 16:26:10.839 [TestNG-PoolService-4] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:10.864 [TestNG-PoolService-1] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:10.907 [TestNG-PoolService-4] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:10.927 [TestNG-PoolService-5] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:11.032 [TestNG-PoolService-4] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:11.163 [TestNG-PoolService-5] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 5')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-01 16:26:11.490 [TestNG-PoolService-3] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:26:11.747 [TestNG-PoolService-1] Log - Successful Click on element
+[INFO ] 2020-03-01 16:26:11.749 [TestNG-PoolService-1] Log - Clearing all coockies and closing driver
+[ERROR] 2020-03-01 16:26:11.942 [TestNG-PoolService-5] Log - Scenario: Verify expected domain on search result pagesFailed. Capturing screenshot!
+[INFO ] 2020-03-01 16:26:12.111 [TestNG-PoolService-4] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-01 16:26:12.198 [TestNG-PoolService-4] Log - Domain: zapier.com was found on 2 page
+[INFO ] 2020-03-01 16:26:12.198 [TestNG-PoolService-4] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:26:12.239 [TestNG-PoolService-5] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-01 16:26:12.755 [TestNG-PoolService-1] Log - Test finished with status: PASSED
+[INFO ] 2020-03-01 16:26:12.859 [TestNG-PoolService-5] Log - Test finished with status: FAILED
+[INFO ] 2020-03-01 16:26:13.063 [TestNG-PoolService-4] Log - Test finished with status: PASSED

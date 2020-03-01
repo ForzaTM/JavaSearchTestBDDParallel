@@ -1,6 +1,7 @@
 package PageObjects;
 
 import Core.DriverManager;
+import Utilities.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,10 +25,10 @@ public class BasePage {
     public WebElement FindElementWithDelay(By by, boolean isWait) {
         try {
             if (isWait) wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-            //log.info("Element searched by: " + by + " present on the page");
+            Log.info("Element searched by: " + by + " present on the page");
             return driver.findElement(by);
         } catch (Exception ex) {
-            //log.info("Element searched by: " + by + " not found on the page: " + ex);
+            Log.info("Element searched by: " + by + " not found on the page: " + ex);
             return null;
         }
     }
@@ -35,10 +36,10 @@ public class BasePage {
     public WebElement FindElementInsideElementWithDelay(By by1, By by2, boolean isWait) {
         try {
             if (isWait) wait.until(ExpectedConditions.visibilityOfElementLocated(by1));
-            //log.info("Element searched by: " + by + " present on the page");
+            Log.info("Element searched by: " + by2 + " inside element by: " + by1 + " present on the page");
             return driver.findElement(by1).findElement(by2);
         } catch (Exception ex) {
-            //log.info("Element searched by: " + by + " not found on the page: " + ex);
+            Log.info("Element searched by: " + by2 + " inside element by: " + by1 + " not found on the page: " + ex);
             return null;
         }
     }
@@ -46,10 +47,10 @@ public class BasePage {
     public List<WebElement> FindElementsWithDelay(By by, boolean isWait) {
         try {
             if (isWait) wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-            //log.info("Elements searched by: " + by + " present on the page");
+            Log.info("Elements searched by: " + by + " present on the page");
             return driver.findElements(by);
         } catch (Exception ex) {
-            //log.info("Element searched by: " + by + " not found on the page: " + ex);
+            Log.info("Element searched by: " + by + " not found on the page: " + ex);
             return null;
         }
     }
@@ -57,10 +58,10 @@ public class BasePage {
     public List<WebElement> FindElementsInsideElementWithDelay(By by1, By by2, boolean isWait) {
         try {
             if (isWait) wait.until(ExpectedConditions.visibilityOfElementLocated(by1));
-            //log.info("Element searched by: " + by + " present on the page");
+            Log.info("Elements searched by: " + by2 + " inside element by: " + by1 + " present on the page");
             return driver.findElement(by1).findElements(by2);
         } catch (Exception ex) {
-            //log.info("Element searched by: " + by + " not found on the page: " + ex);
+            Log.info("Elements searched by: " + by2 + " inside element by: " + by1 + " not found on the page: " + ex);
             return null;
         }
     }

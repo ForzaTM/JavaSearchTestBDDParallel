@@ -1,5 +1,6 @@
 package Core;
 
+import Utilities.Log;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,6 @@ public class DriverManager {
     public WebDriverWait wait;
 
     public void Driver(String browser) throws Exception {
-
         if (browser.toLowerCase().contains("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -26,9 +26,12 @@ public class DriverManager {
             WebDriverManager.operadriver().setup();
             driver = new OperaDriver();
         } else {
-            throw new Exception("Passed Browser is not in the list of Driver method cases");
+            Log.error("Passed Browser: " + browser + " is not in the list of Driver method cases");
+            throw new Exception("Passed Browser: " + browser + " is not in the list of Driver method cases");
         }
         wait = new WebDriverWait(driver, 5);
+
+        Log.info(browser + " driver successfully initialized");
     }
 }
 

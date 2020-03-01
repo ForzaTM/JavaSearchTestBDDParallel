@@ -1,5 +1,6 @@
 package Core;
 
+import Utilities.Log;
 import org.openqa.selenium.WebElement;
 
 public class CommonActions {
@@ -10,10 +11,12 @@ public class CommonActions {
     }
 
     public void OpenUrlWithBrowser(String browser, String url) throws Exception {
+        Log.startLog("Starting " + browser + " browser with " + url +" url") ;
         try {
             manager.Driver(browser);
             manager.driver.get(url);
         } catch (Exception ex) {
+            Log.error("Something went wrong during Driver method execution: " + ex);
             throw new Exception("Something went wrong during Driver method execution: " + ex);
         }
     }
@@ -25,10 +28,10 @@ public class CommonActions {
         }
         catch(Exception ex)
         {
-            //log.Info("Click on element failed: " + element.getTagName() + " Exception: " + ex);
-            throw new Exception("Click on element failed: " + element.getTagName() + " Exception: " + ex);
+            Log.error("Click on element failed: Exception: " + ex);
+            throw new Exception("Click on element failed with exception: " + ex);
         }
-        //log.Info("Successful Click on element: " + element.getTagName());
+        Log.info("Successful Click on element");
     }
 
     public String GetTitleOfTheCurrentBrowserPage() throws Exception {
@@ -37,8 +40,8 @@ public class CommonActions {
         }
         catch(Exception ex)
         {
-            //log.error("Failed to get title of the current browser page: " + ex);
-            throw new Exception("Failed to get title of the current browser page: " + ex);
+            Log.error("Exceptions in GetTitleOfTheCurrentBrowserPage method: " + ex);
+            throw new Exception("Exceptions in GetTitleOfTheCurrentBrowserPage method: " + ex);
         }
     }
 }

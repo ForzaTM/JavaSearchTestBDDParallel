@@ -49,7 +49,7 @@ public class GoogleSearchSteps {
     }
 
     @Then("Verify that {string} domain is present on one of the {int} pages")
-    public void verify_that_domain_is_present_on_one_of_the_pages(String domain, int amountOfPages) {
+    public void verify_that_domain_is_present_on_one_of_the_pages(String domain, int amountOfPages) throws Exception {
         Assert.assertTrue(domain + " domain is not present within " + amountOfPages + " pages"
                 ,searchResultsPage.FindDomainOnOneOfThePages(domain, amountOfPages));
     }
