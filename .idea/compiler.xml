@@ -14,4 +14,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="13" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GoogleTest" options="" />
+    </option>
+  </component>
 </project>

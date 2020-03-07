@@ -16,18 +16,11 @@ public class SearchResults extends BasePage {
     public WebElement switchPage;
     public WebElement navigationSection;
 
-    String NAVIGATIONSECTIONPATH_PATH = "tbody";
-    String SEARCHFIELD_PATH = ".//input[contains(@role,'combobox')]";
-    String SEARCHRESULT_PATH = "search";
-    String FIRSTOFSEARCHRESULTS_PATH = ".//a[contains(@href, '')][1]";
-    String LINKSINSEARCHFIELD_PATH = "cite.iUh30.tjvcx";
-
-
-    By searchField = By.xpath(SEARCHFIELD_PATH);
-    By googleSearchRes = By.id(SEARCHRESULT_PATH);
-    By firstOfGoogleSearchRes = By.xpath(FIRSTOFSEARCHRESULTS_PATH);
-    By navigationSect = By.tagName(NAVIGATIONSECTIONPATH_PATH);
-    By linksInSF = By.cssSelector(LINKSINSEARCHFIELD_PATH);
+    By searchField = By.xpath(".//input[contains(@role,'combobox')]");
+    By googleSearchRes = By.id("search");
+    By firstOfGoogleSearchRes = By.xpath(".//a[contains(@href, '')][1]");
+    By navigationSect = By.tagName("tbody");
+    By linksInSF = By.cssSelector("cite.iUh30.tjvcx");
 
     public SearchResults(DriverManager manager) {
         super(manager);
@@ -37,7 +30,7 @@ public class SearchResults extends BasePage {
         navigationSection = FindElementWithDelay(navigationSect, true);
     }
 
-    public void NextPage(Integer pagenum) throws Exception {
+    public void nextPage(Integer pagenum) throws Exception {
         try {
             switchPage = FindElementInsideElementWithDelay(navigationSect, By.xpath(".//a[contains(@aria-label, 'Page " + pagenum + "')]"), false);
             switchPage.click();
@@ -60,9 +53,9 @@ public class SearchResults extends BasePage {
         }
     }
 
-    public void ClickFirstSearchElementOnPage() throws Exception {
+    public void clickFirstSearchElementOnPage() throws Exception {
         try {
-            actions.Click(firstOfGoogleSearchResults);
+            actions.click(firstOfGoogleSearchResults);
         }
         catch(Exception ex)
         {
@@ -71,7 +64,7 @@ public class SearchResults extends BasePage {
         }
     }
 
-    public Boolean FindDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
+    public Boolean findDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
         for (int i = 1; i <= amountOfPages; i++)
         {
             for (WebElement element : linksInSearchList()) {
@@ -80,7 +73,7 @@ public class SearchResults extends BasePage {
                     return true;
                 }
             }
-            NextPage(i + 1);
+            nextPage(i + 1);
         }
         Log.error("Failed to find domain: " + domain + " on " + amountOfPages + " search results pages");
         return false;

@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/Features/GoogleSearch.feature");
 formatter.feature({
-  "name": "Google Search KeyWord",
+  "name": "Google Search",
   "description": "",
   "keyword": "Feature"
 });
@@ -22,7 +22,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "First link with a \u0027\u003cKeyWord\u003e\u0027 keyword is opened",
+  "name": "First link is opened",
   "keyword": "Then "
 });
 formatter.step({
@@ -100,11 +100,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "First link with a \u0027automation\u0027 keyword is opened",
+  "name": "First link is opened",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.first_link_with_a_keyword_is_opened(java.lang.String)"
+  "location": "Steps.GoogleSearchSteps.first_link_is_opened()"
 });
 formatter.result({
   "status": "passed"
@@ -158,11 +158,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "First link with a \u0027automation\u0027 keyword is opened",
+  "name": "First link is opened",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.first_link_with_a_keyword_is_opened(java.lang.String)"
+  "location": "Steps.GoogleSearchSteps.first_link_is_opened()"
 });
 formatter.result({
   "status": "passed"
@@ -216,11 +216,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "First link with a \u0027automation\u0027 keyword is opened",
+  "name": "First link is opened",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.first_link_with_a_keyword_is_opened(java.lang.String)"
+  "location": "Steps.GoogleSearchSteps.first_link_is_opened()"
 });
 formatter.result({
   "status": "passed"
@@ -256,7 +256,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "Verify that \u0027\u003cDomain\u003e\u0027 domain is present on one of the \u003cPages\u003e pages",
+  "name": "Verify that \u0027\u003cDomain\u003e\u0027 domain is present on one of the \u0027\u003cPages\u003e\u0027 pages",
   "keyword": "Then "
 });
 formatter.examples({
@@ -338,11 +338,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that \u0027www.br-automation.com\u0027 domain is present on one of the 4 pages",
+  "name": "Verify that \u0027www.br-automation.com\u0027 domain is present on one of the \u00274\u0027 pages",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,int)"
+  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -386,15 +386,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that \u0027zapier.com\u0027 domain is present on one of the 4 pages",
+  "name": "Verify that \u0027zapier.com\u0027 domain is present on one of the \u00274\u0027 pages",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,int)"
+  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: zapier.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(GoogleSearchSteps.java:50)\r\n\tat ✽.Verify that \u0027zapier.com\u0027 domain is present on one of the \u00274\u0027 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:20)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
@@ -434,17 +436,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that \u0027testautomationday.com\u0027 domain is present on one of the 4 pages",
+  "name": "Verify that \u0027testautomationday.com\u0027 domain is present on one of the \u00274\u0027 pages",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,int)"
+  "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: testautomationday.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(GoogleSearchSteps.java:53)\r\n\tat ✽.Verify that \u0027testautomationday.com\u0027 domain is present on one of the 4 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:20)\r\n",
+  "error_message": "java.lang.AssertionError: testautomationday.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_one_of_the_pages(GoogleSearchSteps.java:50)\r\n\tat ✽.Verify that \u0027testautomationday.com\u0027 domain is present on one of the \u00274\u0027 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:20)\r\n",
   "status": "failed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
+formatter.embedding("image/png", "embedded1.png", null);
 formatter.after({
   "status": "passed"
 });

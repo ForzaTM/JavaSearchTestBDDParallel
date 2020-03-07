@@ -5,14 +5,13 @@ import Utilities.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class GoogleSearch extends BasePage {
 
-    WebElement searchBar;
+    private WebElement searchBar;
 
-    String SEARCHFIELD_PATH = ".//input[contains(@role,'combobox')]";
-
-    By searchField = By.xpath(SEARCHFIELD_PATH);
+    By searchField = By.xpath(".//input[contains(@role,'combobox')]");
 
     public GoogleSearch(DriverManager manager) {
         super(manager);
