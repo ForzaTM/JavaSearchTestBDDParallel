@@ -934,3 +934,182 @@ Session ID: 15e9e25a057cd7c6301d47a523e9dbc9
 [ERROR] 2020-03-08 13:34:17.672 [TestNG-PoolService-4] Log - Scenario: Verify expected domain on search result pages Failed. Capturing screenshot!
 [INFO ] 2020-03-08 13:34:17.782 [TestNG-PoolService-4] Log - Clearing all coockies and closing driver
 [INFO ] 2020-03-08 13:34:18.588 [TestNG-PoolService-4] Log - Test finished with status: FAILED
+[INFO ] 2020-03-08 13:47:20.814 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:23.420 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:47:23.961 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:25.227 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:25.228 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:25.874 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:47:25.874 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:30.028 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:47:30.929 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:30.997 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:30.997 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:31.986 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:47:31.993 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:33.965 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:47:34.779 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:36.000 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:36.001 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:36.623 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:47:36.623 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:38.733 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:47:39.291 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:40.446 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:40.446 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:41.668 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:47:41.668 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:45.157 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:47:45.957 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:46.019 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:46.019 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:46.925 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:47:46.932 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:47:48.272 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:47:48.799 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:47:49.871 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:47:49.872 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:47:50.476 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:48:26.101 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:48:28.636 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:48:29.227 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:48:30.800 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:48:30.803 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:48:31.510 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:50:03.625 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:06.135 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:50:06.733 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:07.967 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:07.999 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:08.026 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:50:08.073 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:50:10.347 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:50:10.360 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:11.031 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:50:11.047 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:15.371 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:50:16.246 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:16.300 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:16.331 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:17.361 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:50:17.390 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:50:19.648 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:50:19.651 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:20.727 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:50:20.727 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:22.733 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:50:23.569 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:24.719 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:24.737 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:24.762 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:50:24.798 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:50:24.873 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:50:24.879 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:26.302 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:50:26.351 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:28.519 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:50:29.126 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:30.308 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:30.309 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:30.940 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:50:30.940 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:34.523 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:50:35.340 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:35.418 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:35.418 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:36.482 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:50:36.482 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:37.822 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:50:38.344 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:39.584 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:39.584 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:40.209 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:50:46.669 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:50:49.253 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:50:49.771 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:50:50.969 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:50:50.970 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:50:51.623 [main] Log - Test finished with status: UNDEFINED
+[INFO ] 2020-03-08 13:52:17.885 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:20.460 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:52:21.236 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:22.366 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:52:22.399 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:22.423 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:52:22.470 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:24.432 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:52:24.447 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:52:25.147 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:52:25.163 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:29.347 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:52:30.191 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:30.254 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:52:30.269 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:31.373 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:52:31.404 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:33.599 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:52:33.601 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:52:34.762 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:52:34.767 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:36.507 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:52:37.336 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:38.516 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:52:38.534 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:38.560 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:52:38.595 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:38.678 [main] Log - Successful Click on element
+[INFO ] 2020-03-08 13:52:38.684 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:52:40.070 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:52:40.070 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:42.206 [main] Log - Chrome driver successfully initialized
+[INFO ] 2020-03-08 13:52:42.749 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:44.047 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:52:44.074 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:44.095 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:52:44.142 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:44.142 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:44.330 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:45.426 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:45.624 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 3')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:46.505 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:46.601 [main] Log - Domain: www.automationdirect.com was found on 3 page
+[INFO ] 2020-03-08 13:52:46.602 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:52:47.271 [main] Log - Test finished with status: PASSED
+[INFO ] 2020-03-08 13:52:47.271 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:50.805 [main] Log - FireFox driver successfully initialized
+[INFO ] 2020-03-08 13:52:51.659 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:51.720 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:52:51.735 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:52:52.860 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:52:52.891 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:52.922 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:53.016 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:53.956 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:54.097 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 3')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:55.028 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:55.148 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 4')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:52:56.084 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:52:56.191 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 5')] inside element by: By.tagName: tbody present on the page
+[ERROR] 2020-03-08 13:52:57.088 [main] Log - Failed to find domain: zapier.com on 4 search results pages
+[ERROR] 2020-03-08 13:52:57.088 [main] Log - Scenario: Verify expected domain on search result pages Failed. Capturing screenshot!
+[INFO ] 2020-03-08 13:52:57.202 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:52:58.152 [main] Log - Test finished with status: FAILED
+[INFO ] 2020-03-08 13:52:58.172 [main] Log - Test is Starting...
+[INFO ] 2020-03-08 13:52:59.440 [main] Log - Opera driver successfully initialized
+[INFO ] 2020-03-08 13:52:59.955 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:53:01.402 [main] Log - Text: automation successfully entered
+[INFO ] 2020-03-08 13:53:01.421 [main] Log - Element searched by: By.xpath: .//input[contains(@role,'combobox')] present on the page
+[INFO ] 2020-03-08 13:53:01.451 [main] Log - Element searched by: By.xpath: .//a[contains(@href, '')][1] inside element by: By.id: search present on the page
+[INFO ] 2020-03-08 13:53:01.491 [main] Log - Element searched by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:53:01.499 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:53:01.695 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 2')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:53:02.795 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:53:03.028 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 3')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:53:03.810 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:53:04.047 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 4')] inside element by: By.tagName: tbody present on the page
+[INFO ] 2020-03-08 13:53:04.816 [main] Log - Elements searched by: By.cssSelector: cite.iUh30.tjvcx present on the page
+[INFO ] 2020-03-08 13:53:04.984 [main] Log - Element searched by: By.xpath: .//a[contains(@aria-label, 'Page 5')] inside element by: By.tagName: tbody present on the page
+[ERROR] 2020-03-08 13:53:05.734 [main] Log - Failed to find domain: testautomationday.com on 4 search results pages
+[ERROR] 2020-03-08 13:53:05.735 [main] Log - Scenario: Verify expected domain on search result pages Failed. Capturing screenshot!
+[INFO ] 2020-03-08 13:53:06.068 [main] Log - Clearing all coockies and closing driver
+[INFO ] 2020-03-08 13:53:06.744 [main] Log - Test finished with status: FAILED

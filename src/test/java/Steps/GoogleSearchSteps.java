@@ -28,25 +28,21 @@ public class GoogleSearchSteps {
         actions.googleSearchPage.EnterText(keyWord);
     }
 
-    @When("{string} page is shown")
-    public void page_is_shown(String page) throws Exception {
+    @Then("First link is opened on {string} page")
+    public void first_link_is_opened_on_page(String page) throws Exception {
         actions.PageToBeCreated(page);
-    }
-
-    @Then("First link is opened")
-    public void first_link_is_opened() throws Exception {
         actions.searchResultsPage.clickFirstSearchElementOnPage();
     }
 
     @Then("It contains a {string} keyword in its title")
     public void it_contains_a_keyword_in_its_title(String keyWord) throws Exception {
-
         Assert.assertTrue("Title doesnt contain searched word: "
                 + keyWord, actions.getTitleOfTheCurrentBrowserPage().toLowerCase().contains(keyWord.toLowerCase()));
     }
 
-    @Then("Verify that {string} domain is present on one of the {string} pages")
-    public void verify_that_domain_is_present_on_one_of_the_pages(String domain, String amountOfPages) throws Exception {
+    @Then("Verify that {string} domain is present on {string} page within one of the {string} pages")
+    public void verify_that_domain_is_present_on_page_within_one_of_the_pages(String domain, String page, String amountOfPages) throws Exception {
+        actions.PageToBeCreated(page);
         Assert.assertTrue(domain + " domain is not present within " + Integer.parseInt(amountOfPages) + " pages"
                 ,actions.searchResultsPage.findDomainOnOneOfThePages(domain, Integer.parseInt(amountOfPages)));
     }
