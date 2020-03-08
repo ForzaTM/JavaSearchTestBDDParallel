@@ -249,7 +249,7 @@ formatter.examples({
         "FireFox",
         "https://www.google.com",
         "automation",
-        "zapier.com",
+        "www.rockwellautomation.com",
         "4"
       ]
     },
@@ -328,17 +328,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that \u0027zapier.com\u0027 domain is present on \u0027Search Results\u0027 page within one of the \u00274\u0027 pages",
+  "name": "Verify that \u0027www.rockwellautomation.com\u0027 domain is present on \u0027Search Results\u0027 page within one of the \u00274\u0027 pages",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_page_within_one_of_the_pages(java.lang.String,java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: zapier.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_page_within_one_of_the_pages(GoogleSearchSteps.java:46)\r\n\tat ✽.Verify that \u0027zapier.com\u0027 domain is present on \u0027Search Results\u0027 page within one of the \u00274\u0027 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:18)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
@@ -375,10 +373,10 @@ formatter.match({
   "location": "Steps.GoogleSearchSteps.verify_that_domain_is_present_on_page_within_one_of_the_pages(java.lang.String,java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: testautomationday.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_page_within_one_of_the_pages(GoogleSearchSteps.java:46)\r\n\tat ✽.Verify that \u0027testautomationday.com\u0027 domain is present on \u0027Search Results\u0027 page within one of the \u00274\u0027 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:18)\r\n",
+  "error_message": "java.lang.AssertionError: testautomationday.com domain is not present within 4 pages\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat Steps.GoogleSearchSteps.verify_that_domain_is_present_on_page_within_one_of_the_pages(GoogleSearchSteps.java:41)\r\n\tat ✽.Verify that \u0027testautomationday.com\u0027 domain is present on \u0027Search Results\u0027 page within one of the \u00274\u0027 pages(file:///E:/IntelliJ2020/TestProject2020/src/test/java/Features/GoogleSearch.feature:18)\r\n",
   "status": "failed"
 });
-formatter.embedding("image/png", "embedded1.png", null);
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });

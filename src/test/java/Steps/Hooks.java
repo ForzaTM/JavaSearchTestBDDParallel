@@ -15,7 +15,7 @@ public class Hooks {
 
     public Hooks(DriverManager manager) {
         this.manager = manager;
-        driver = manager.driver;
+        driver = manager.getDriver();
     }
 
     @After

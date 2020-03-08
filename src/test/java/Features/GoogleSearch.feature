@@ -19,5 +19,5 @@ Feature: Google Search
     Examples:
       |Browser      |          Url           |   KeyWord    |         Domain               |Pages|
       | Chrome      | https://www.google.com |  automation  |   www.automationdirect.com   |  4  |
-      | FireFox     | https://www.google.com |  automation  |   zapier.com                 |  4  |
+      | FireFox     | https://www.google.com |  automation  |   www.rockwellautomation.com |  4  |
       | Opera       | https://www.google.com |  automation  |   testautomationday.com      |  4  |

@@ -1,19 +1,14 @@
 package Steps;
 
 import Core.CommonActions;
-import Core.DriverManager;
-import PageObjects.GoogleSearch;
-import PageObjects.SearchResults;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
 public class GoogleSearchSteps {
 
-    private DriverManager manager;
     private CommonActions actions;
 
-    public GoogleSearchSteps(DriverManager manager, CommonActions actions) {
-        this.manager = manager;
+    public GoogleSearchSteps(CommonActions actions) {
         this.actions = actions;
     }
 

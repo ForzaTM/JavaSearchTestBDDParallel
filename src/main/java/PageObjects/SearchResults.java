@@ -9,7 +9,7 @@ import java.util.List;
 
 public class SearchResults extends BasePage {
 
-    CommonActions actions;
+    private CommonActions actions;
 
     public WebElement searchBar;
     public WebElement firstOfGoogleSearchResults;
@@ -69,7 +69,7 @@ public class SearchResults extends BasePage {
     public Boolean findDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
         for (int i = 1; i <= amountOfPages; i++)
         {
-           if(linksInSearchList().stream().filter(element -> element.getText().toLowerCase().contains(domain.toLowerCase())).findFirst().isPresent()) {
+           if(linksInSearchList().stream().anyMatch(element -> element.getText().toLowerCase().contains(domain.toLowerCase()))) {
                Log.info("Domain: " + domain + " was found on " + i + " page");
                return true;
            }

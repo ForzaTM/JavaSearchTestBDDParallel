@@ -12,14 +12,12 @@ import java.util.List;
 
 public class BasePage {
 
-    public DriverManager manager;
-    public WebDriver driver;
+    private WebDriver driver;
     private WebDriverWait wait;
 
     public BasePage(DriverManager manager) {
-        this.manager = manager;
-        this.wait = manager.wait;
-        driver = manager.driver;
+        this.wait = manager.getWait();
+        driver = manager.getDriver();
     }
 
     public WebElement FindElementWithDelay(By by, boolean isWait) {

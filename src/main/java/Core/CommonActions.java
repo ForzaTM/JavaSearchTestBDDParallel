@@ -18,8 +18,8 @@ public class CommonActions {
     public void OpenUrlWithBrowser(String browser, String url) throws Exception {
         Log.startLog("Starting " + browser + " browser with " + url + " url");
         try {
-            manager.getDriver(browser);
-            manager.driver.get(url);
+            manager.getBrowser(browser);
+            manager.getDriver().get(url);
         } catch (Exception ex) {
             Log.error("Something went wrong during Driver method execution: " + ex);
             throw new Exception("Something went wrong during Driver method execution: " + ex);
@@ -38,7 +38,7 @@ public class CommonActions {
 
     public String getTitleOfTheCurrentBrowserPage() throws Exception {
         try {
-            return manager.driver.getTitle();
+            return manager.getDriver().getTitle();
         } catch (Exception ex) {
             Log.error("Exceptions in GetTitleOfTheCurrentBrowserPage method: " + ex);
             throw new Exception("Exceptions in GetTitleOfTheCurrentBrowserPage method: " + ex);
