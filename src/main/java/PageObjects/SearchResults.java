@@ -16,6 +16,8 @@ public class SearchResults extends BasePage {
     public WebElement switchPage;
     public WebElement navigationSection;
 
+    String pageNumberLocator = ".//a[contains(@aria-label, 'Page 1')]";
+
     By searchField = By.xpath(".//input[contains(@role,'combobox')]");
     By googleSearchRes = By.id("search");
     By firstOfGoogleSearchRes = By.xpath(".//a[contains(@href, '')][1]");
@@ -32,7 +34,7 @@ public class SearchResults extends BasePage {
 
     public void nextPage(Integer pagenum) throws Exception {
         try {
-            switchPage = FindElementInsideElementWithDelay(navigationSect, By.xpath(".//a[contains(@aria-label, 'Page " + pagenum + "')]"), false);
+            switchPage = FindElementInsideElementWithDelay(navigationSect, getPageNumberLocator(pagenum), false);
             switchPage.click();
         }
         catch (Exception ex)
@@ -67,15 +69,18 @@ public class SearchResults extends BasePage {
     public Boolean findDomainOnOneOfThePages(String domain, int amountOfPages) throws Exception {
         for (int i = 1; i <= amountOfPages; i++)
         {
-            for (WebElement element : linksInSearchList()) {
-                if (element.getText().toLowerCase().contains(domain.toLowerCase())) {
-                    Log.info("Domain: " + domain + " was found on " + i + " page");
-                    return true;
-                }
-            }
-            nextPage(i + 1);
+           if(linksInSearchList().stream().filter(element -> element.getText().toLowerCase().contains(domain.toLowerCase())).findFirst().isPresent()) {
+               Log.info("Domain: " + domain + " was found on " + i + " page");
+               return true;
+           }
+           nextPage(i);
         }
         Log.error("Failed to find domain: " + domain + " on " + amountOfPages + " search results pages");
         return false;
+    }
+
+    private By getPageNumberLocator(Integer i)
+    {
+        return By.xpath(pageNumberLocator.replaceAll("[0-9]", String.valueOf(i + 1)));
     }
 }

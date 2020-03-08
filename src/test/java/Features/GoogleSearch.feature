@@ -20,6 +20,6 @@ Feature: Google Search
     Then Verify that '<Domain>' domain is present on one of the '<Pages>' pages
     Examples:
       |Browser      |          Url           |   KeyWord    |         Domain               |Pages|
-      | Chrome      | https://www.google.com |  automation  |   www.br-automation.com      |  4  |
+      | Chrome      | https://www.google.com |  automation  |   www.automationdirect.com   |  4  |
       | FireFox     | https://www.google.com |  automation  |   zapier.com                 |  4  |
       | Opera       | https://www.google.com |  automation  |   testautomationday.com      |  4  |

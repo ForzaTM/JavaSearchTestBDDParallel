@@ -278,7 +278,7 @@ formatter.examples({
         "Chrome",
         "https://www.google.com",
         "automation",
-        "www.br-automation.com",
+        "www.automationdirect.com",
         "4"
       ]
     },
@@ -338,7 +338,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that \u0027www.br-automation.com\u0027 domain is present on one of the \u00274\u0027 pages",
+  "name": "Verify that \u0027www.automationdirect.com\u0027 domain is present on one of the \u00274\u0027 pages",
   "keyword": "Then "
 });
 formatter.match({
